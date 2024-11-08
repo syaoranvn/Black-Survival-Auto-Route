@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lumia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24a7a71cd8713352dd226206f0e5adc984c05bc8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2af51cbcc74f78b3ce3547c96002526d589af05")]
 [assembly: System.Reflection.AssemblyProductAttribute("lumia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lumia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

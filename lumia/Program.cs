@@ -90,8 +90,10 @@ class Program
 
         foreach (var location in data.Locations)
         {
+            // Lọc ra những nguyên liệu cần thiết cho trang bị trong khu vực này và chưa thu thập
             var neededMaterialsInLocation = location.Value
                 .Where(material => totalMaterialsNeeded.ContainsKey(material) && !materialsCollected.Contains(material))
+                .Distinct() // Chỉ lấy các nguyên liệu duy nhất
                 .ToList();
 
             if (neededMaterialsInLocation.Any())
@@ -106,7 +108,7 @@ class Program
             }
         }
 
-        // Hiển thị kết quả
+        // Hiển thị kết quả không trùng nguyên liệu
         Console.WriteLine("\nTổng số lượng nguyên liệu cần thiết:");
         foreach (var material in totalMaterialsNeeded)
         {
@@ -116,7 +118,37 @@ class Program
         Console.WriteLine("\nCác khu vực tối ưu để thu thập nguyên liệu (không bao gồm nguyên liệu bị trùng):");
         foreach (var location in uniqueLocationsToVisit)
         {
-            Console.WriteLine($"- {location.Key}: {string.Join(", ", location.Value)}");
+            Console.WriteLine($"- {location.Key}:");
+            foreach (var material in location.Value)
+            {
+                Console.WriteLine($"  - {material}: {totalMaterialsNeeded[material]}");
+            }
+        }
+
+        // Hiển thị kết quả có trùng nguyên liệu
+        Console.WriteLine("\nCác khu vực để thu thập nguyên liệu (bao gồm nguyên liệu trùng nhau):");
+        var allLocationsWithMaterials = new Dictionary<string, List<string>>();
+
+        foreach (var location in data.Locations)
+        {
+            // Lấy nguyên liệu cần thu thập trong khu vực này
+            var materialsInLocation = location.Value
+                .Where(material => totalMaterialsNeeded.ContainsKey(material))
+                .ToList();
+
+            if (materialsInLocation.Any())
+            {
+                allLocationsWithMaterials[location.Key] = materialsInLocation;
+            }
+        }
+
+        foreach (var location in allLocationsWithMaterials)
+        {
+            Console.WriteLine($"- {location.Key}:");
+            foreach (var material in location.Value)
+            {
+                Console.WriteLine($"  - {material}: {totalMaterialsNeeded[material]}");
+            }
         }
     }
 

@@ -1,23 +1,43 @@
 ﻿{
   "Equipment": {
-    "sword_cross": {
-      "long_sword": 1,
-      "iron_dust": 2,
-      "scrap_iron": 3,
-      "holy_cross": 1
+    "Monohoshizao": {
+      "Katana": 1,
+      "Hammer": 1,
+      "Scrap_Metal": 1,
+      "Thick_Paper": 1,
+      "Fountain_Pen": 1
     },
-    "helmet": {
-      "iron_dust": 1,
-      "scrap_iron": 2
+    "Maverick_Runner": {
+      "Running_Shoes": 1,
+      "Iron_Ball": 1,
+      "Wire": 1,
+      "Battery": 1
     },
-    "armor": {
-      "iron_plate": 2,
-      "cloth": 1
+    "Rocker_Jacket": {
+      "Leather": 1,
+      "Windbreaker": 1,
+      "Steel_Chain": 1,
+      "Scrap_Metal": 1,
+      "Hammer": 1
     },
-    "shield": {
-      "wood": 3,
-      "iron_dust": 2,
-      "leather": 1
+    "Tactical_Obs_Helmet": {
+      "Bike_Helmet": 1,
+      "Bullets": 1,
+      "Thick_Paper": 1,
+      "Fountain_Pen": 1,
+      "Wire": 1,
+      "Battery": 1
+    },
+    "Sword_Stopper": {
+      "Arm_Warmers": 1,
+      "Scrap_Metal": 1,
+      "Hammer": 1,
+      "Iron_Ore": 1,
+      "Claw": 1
+    },
+    "Dice_Of_Destiny": {
+      "Playing_Cards": 1,
+      "Dice": 1
     }
   },
   "Locations": {
