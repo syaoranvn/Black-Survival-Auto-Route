@@ -1,0 +1,145 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "lumia/1.0.0": {
+        "dependencies": {
+          "Optivem.Framework.Infrastructure.NewtonsoftJson": "1.0.23"
+        },
+        "runtime": {
+          "lumia.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Optivem.Framework.Core.All/1.0.23": {
+        "dependencies": {
+          "Optivem.Framework.Core.Application": "1.0.23",
+          "Optivem.Framework.Core.Application.Interface": "1.0.23",
+          "Optivem.Framework.Core.Common": "1.0.23",
+          "Optivem.Framework.Core.Domain": "1.0.23"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Optivem.Framework.Core.All.dll": {
+            "assemblyVersion": "1.0.23.0",
+            "fileVersion": "1.0.23.0"
+          }
+        }
+      },
+      "Optivem.Framework.Core.Application/1.0.23": {
+        "dependencies": {
+          "Optivem.Framework.Core.Application.Interface": "1.0.23",
+          "Optivem.Framework.Core.Domain": "1.0.23"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Optivem.Framework.Core.Application.dll": {
+            "assemblyVersion": "1.0.23.0",
+            "fileVersion": "1.0.23.0"
+          }
+        }
+      },
+      "Optivem.Framework.Core.Application.Interface/1.0.23": {
+        "runtime": {
+          "lib/netstandard2.1/Optivem.Framework.Core.Application.Interface.dll": {
+            "assemblyVersion": "1.0.23.0",
+            "fileVersion": "1.0.23.0"
+          }
+        }
+      },
+      "Optivem.Framework.Core.Common/1.0.23": {
+        "runtime": {
+          "lib/netstandard2.1/Optivem.Framework.Core.Common.dll": {
+            "assemblyVersion": "1.0.23.0",
+            "fileVersion": "1.0.23.0"
+          }
+        }
+      },
+      "Optivem.Framework.Core.Domain/1.0.23": {
+        "runtime": {
+          "lib/netstandard2.1/Optivem.Framework.Core.Domain.dll": {
+            "assemblyVersion": "1.0.23.0",
+            "fileVersion": "1.0.23.0"
+          }
+        }
+      },
+      "Optivem.Framework.Infrastructure.NewtonsoftJson/1.0.23": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "Optivem.Framework.Core.All": "1.0.23"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Optivem.Framework.Infrastructure.NewtonsoftJson.dll": {
+            "assemblyVersion": "1.0.23.0",
+            "fileVersion": "1.0.23.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "lumia/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Optivem.Framework.Core.All/1.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Dg2qbgsFXpx7I6e0qk9aorwacjxe+H4HH3QQEzL5xTVFuzcvfDlmfNNfuXcNZmkoJWiW0kSqY0DoYcOjsXgfQg==",
+      "path": "optivem.framework.core.all/1.0.23",
+      "hashPath": "optivem.framework.core.all.1.0.23.nupkg.sha512"
+    },
+    "Optivem.Framework.Core.Application/1.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ml/7xXWubBoDfHETKt0eSiselY41Ihx+hUyzKyXbvBHxDLHBBvAR4J4cLTIt+kGJxn7XXVC7DZBfW106nXAcYQ==",
+      "path": "optivem.framework.core.application/1.0.23",
+      "hashPath": "optivem.framework.core.application.1.0.23.nupkg.sha512"
+    },
+    "Optivem.Framework.Core.Application.Interface/1.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t1o/xeZtkvPXqcuVROnvU7ToCbEPEq3sVAcpgr56YS7IPpuYBy3/pQnRKGYAx62KR5RBpolKpA0PjeAFmVDrCQ==",
+      "path": "optivem.framework.core.application.interface/1.0.23",
+      "hashPath": "optivem.framework.core.application.interface.1.0.23.nupkg.sha512"
+    },
+    "Optivem.Framework.Core.Common/1.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-d74Q91ZxWJpdyWqQf0WnmEX7Rcu+FWMyJlv/ZTPnq9PCNGnBPkXDyD2xQymnlmr8ymUyAvRNfX/OQ06WdtYVyg==",
+      "path": "optivem.framework.core.common/1.0.23",
+      "hashPath": "optivem.framework.core.common.1.0.23.nupkg.sha512"
+    },
+    "Optivem.Framework.Core.Domain/1.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-om7j5+k3Qxx5UdoVAp2Rnd0f5GoIQcBZzaIYAk90dYnDZLG5kwz0iOhHeLUUsB/0/A/RKgFD+SW+Z7vtkYy0pg==",
+      "path": "optivem.framework.core.domain/1.0.23",
+      "hashPath": "optivem.framework.core.domain.1.0.23.nupkg.sha512"
+    },
+    "Optivem.Framework.Infrastructure.NewtonsoftJson/1.0.23": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W003Hm3b49AFLeGVZDq5u2og8A7xtDTaFBkrCRhviLJC3CCbH0vpQlgR8aj39WaY9pO7ly0LDnSCWPDw7jBsMw==",
+      "path": "optivem.framework.infrastructure.newtonsoftjson/1.0.23",
+      "hashPath": "optivem.framework.infrastructure.newtonsoftjson.1.0.23.nupkg.sha512"
+    }
+  }
+}

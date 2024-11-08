@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "wotYCH2ty8o=",
+  "success": true,
+  "projectFilePath": "E:\\code linh tinh\\Black-Survival-Auto-Route\\lumia\\lumia.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lam\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Lam\\.nuget\\packages\\optivem.framework.core.all\\1.0.23\\optivem.framework.core.all.1.0.23.nupkg.sha512",
+    "C:\\Users\\Lam\\.nuget\\packages\\optivem.framework.core.application\\1.0.23\\optivem.framework.core.application.1.0.23.nupkg.sha512",
+    "C:\\Users\\Lam\\.nuget\\packages\\optivem.framework.core.application.interface\\1.0.23\\optivem.framework.core.application.interface.1.0.23.nupkg.sha512",
+    "C:\\Users\\Lam\\.nuget\\packages\\optivem.framework.core.common\\1.0.23\\optivem.framework.core.common.1.0.23.nupkg.sha512",
+    "C:\\Users\\Lam\\.nuget\\packages\\optivem.framework.core.domain\\1.0.23\\optivem.framework.core.domain.1.0.23.nupkg.sha512",
+    "C:\\Users\\Lam\\.nuget\\packages\\optivem.framework.infrastructure.newtonsoftjson\\1.0.23\\optivem.framework.infrastructure.newtonsoftjson.1.0.23.nupkg.sha512"
+  ],
+  "logs": []
+}
