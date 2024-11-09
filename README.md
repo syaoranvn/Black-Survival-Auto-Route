@@ -4,7 +4,6 @@ Visual studio
 "data.json form"
 
  
-{
   "Equipment": {
     "Monohoshizao": {
       "Katana": 1,
@@ -360,4 +359,3 @@ Visual studio
       "Snare"
     ]
   }
-}
