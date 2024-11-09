@@ -1,5 +1,5 @@
 # Black-Survival-Auto-Route
-Visual studio
+Visual studio edit lumia\bin\Debug\net8.0\data.json
 
 "data.json form"
 
